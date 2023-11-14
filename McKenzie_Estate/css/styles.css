@@ -1,58 +1,56 @@
 body {
-    background-color: #EBF5FF;
-    margin: auto;
-    }
+	background-color: #ebf5ff;
+	margin: auto;
+}
 
 h1 {
-    text-shadow:7px 5px 1px rgb(238, 151, 70);
-    color: rgb(250, 250, 250);
+	text-shadow: 7px 5px 1px rgb(238, 151, 70);
+	color: rgb(250, 250, 250);
+	font-size: 10vw;
+	text-align: center;
 }
 
 .heading {
-    padding: 15rem;
-    font-size: 100px;
-    font-weight: 400;
+	padding: 15rem;
+	font-size: 100px;
+	font-weight: 400;
 }
 
 .nav-links {
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    justify-content: center;
-    list-style-type: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	font-size: 25px;
+	justify-content: center;
+	list-style-type: none;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .nav-links a {
-    text-decoration: none;
-    padding: inherit;
-    margin: 50px;
+	text-decoration: none;
+	padding: inherit;
+	margin: 50px;
 }
 
 .hero_index {
-    width: auto;
-    height: 39vh;
-    margin: 0;
-    background-image: url("/McKenzie_Estate/images/hero_index_cover.jpg");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    white-space: nowrap;
+	max-width: 100%;
+	width: 100%;
+	max-height: 100%;
+	margin: auto;
+	background-image: url("/McKenzie_Estate/images/hero_index_cover.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	white-space: nowrap;
 }
 
 .hero_blog {
-    width: auto;
-    height: 39vh;
-    margin: 0;
-    background-image: url("/McKenzie_Estate/images/hero_blog_cover.jpg");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    white-space: nowrap;
+	width: auto;
+	height: 39vh;
+	margin: 0;
+	background-image: url("/McKenzie_Estate/images/hero_blog_cover.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	white-space: nowrap;
 }
-
-
-
-
-
