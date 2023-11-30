@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+.blogger {
+	font-family: "Inconsolata";
+}
+
 body {
 	background-color: #ebf5ff;
 	margin: 0 auto;
@@ -32,11 +38,10 @@ h1 {
 	padding-left: 50px;
 }
 
-.navbar-nav.auth{
+.navbar-nav.auth {
 	justify-content: flex-end;
 	padding-right: 50px;
 }
-
 
 .heading {
 	padding: 15rem;
@@ -65,7 +70,7 @@ h1 {
 	margin: 0 auto;
 	height: auto;
 	min-height: 875px;
-	background-image: url("/McKenzie_Estate/images/hero_index_cover.jpg");
+	background-image: url("/McKenzie_Estate/images/hero_blog_cover.jpg");
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -80,4 +85,8 @@ h1 {
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("/McKenzie_Estate/images/hero_blog_cover.jpg");
 }
